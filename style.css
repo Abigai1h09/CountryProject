@@ -1,0 +1,95 @@
+/* Challenge 7: Make the font for all elements Arial */
+*{
+	font-family: Arial;
+}
+/* Challenge 8: Remove the underline for all hyperlinks */
+a {
+	text-decoration: none;
+}
+/* Challenge 9: Change the background color to black and the text to white for elements with an id of "banner" */
+#banner {
+	background-color:darkred;
+	color: white;
+	padding:30px;
+	text-align: center;
+}
+/* Challenge Bonus: Complete the other web pages, html.html, css.html and js.html */
+
+nav{
+  padding:5px;
+  background-color:rgb(255,255,205);
+}
+nav a{
+  color:black;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
+  text-align:right; 
+}
+
+nav a:hover{
+	color: red;
+}
+#main {
+	text-align:center;
+	background-color:rgb(255,255,205);
+}
+
+.container {
+	display: flex;
+	background-color:rgb(255,255,205);
+	/*padding: 100px, 150px, 100px; */
+}
+
+#text{ 
+	flex:1;
+}
+.container div{
+	flex:1;
+}
+#sing {
+	font-family: Arial;
+	color: darkgreen;
+}
+
+#food {
+	font-family: Arial;
+	color: darkgreen;
+}
+
+container div {
+	flex:1;
+}
+
+#home {
+	font-family: Arial;
+	font-size: 30px;
+	color: darkgreen;
+}
+
+#home1{
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	text-justify: left;
+}
+
+
+#home2{
+	padding-top: 15px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	text-justify: left;
+}
+
+footer {
+	text-align: center;
+	padding: 25px, 25px, 25px;
+	background-color:darkred;
+	color: white;
+	height:35px;
+	font-size: 25px;
+}
+
